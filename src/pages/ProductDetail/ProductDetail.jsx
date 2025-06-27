@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../../componenets/Layout/Layout";
-import classes from "./productDetail.module.css";
+import classes from "./ProductDetail.module.css";
 import { useParams } from "react-router-dom";
 import apiUrl from "../../assets/API/endpoints";
 import ProductCard from "../../componenets/product/ProductCard";
