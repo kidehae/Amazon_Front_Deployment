@@ -26,4 +26,7 @@ export default defineConfig({
     port: 3000, // Default dev server port
     open: true, // Automatically open browser
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".json"], // Auto-resolve these extensions
+  },
 });
