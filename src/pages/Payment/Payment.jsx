@@ -4,7 +4,7 @@ import Layout from "../../componenets/Layout/Layout";
 import { DataContext } from "../../componenets/Dataprovider/DataProvider";
 import ProductCard from "../../componenets/product/ProductCard";
 import { Form } from "react-router-dom";
-import CurrencyFormat from "../../componenets/currencyFormat/currencyFormat";
+import CurrencyFormat from "../../componenets/currencyFormat/CurrencyFormat";
 import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
 import { axiosInstance } from "../../assets/API/axios";
 import { ClipLoader } from "react-spinners";
