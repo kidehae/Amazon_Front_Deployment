@@ -1,0 +1,22 @@
+/* src/pages/ProductDetail/ProductDetail.module.css */
+
+.productDetailContainer {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* Add some basic responsive styling */
+@media (max-width: 768px) {
+  .productDetailContainer {
+    margin: 1rem auto;
+    padding: 0 0.5rem;
+  }
+}
