@@ -1,0 +1,38 @@
+.Payment__header {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(234, 237, 237);
+}
+
+.payment {
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.flex h3 {
+  min-width: 300px;
+}
+.flex img {
+  width: 80px !important ;
+}
+
+.flex div {
+  height: auto !important;
+}
+
+.payment__card__container {
+  max-width: 350px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
